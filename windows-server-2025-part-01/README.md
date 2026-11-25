@@ -134,16 +134,6 @@ A successful ping confirms that ICMP Echo traffic can travel between the tested 
 
 All three machines are configured to use `192.168.50.10` as DNS. However, the DNS Server role has not yet been evidenced as installed. The DNS client setting is preparation for the planned domain controller, not proof that DNS resolution is already available.
 
-## Verification checklist
-
-- [x] Three VMs prepared.
-- [x] Host-only lab network selected for the environment.
-- [x] Static IPv4 configuration applied to all three machines.
-- [x] Ping connectivity tested between the machines.
-- [ ] Confirm VMnet2 is selected in Virtual Network Editor and capture the full VMnet2 settings panel.
-- [ ] Rename machines consistently to `DC01`, `FS01` and `CLIENT01`.
-- [ ] Add and verify the planned 20 GB data disk on FS01.
-
 ## L2 troubleshooting scenarios
 
 | Symptom | Initial checks |
@@ -168,6 +158,4 @@ All three machines are configured to use `192.168.50.10` as DNS. However, the DN
 
 **Completed:** Initial VM preparation, static IPv4 configuration and basic inter-VM connectivity verification.
 
-**Pending:** Final confirmation screenshot of VMnet2 settings, hostname standardization and FS01 data-disk addition.
 
-**Next part:** Active Directory Domain Services (AD DS).
