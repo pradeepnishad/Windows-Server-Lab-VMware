@@ -10,8 +10,8 @@ Prepare and understand a small Windows Server lab before deploying enterprise ro
 
 | Machine | Current hostname in screenshots | Planned function | IPv4 address |
 |---|---|---|---|
-| Server 1 | `SERVDC01` | Domain Controller / DNS (planned) | `192.168.50.10` |
-| Server 2 | `SERVFS01` | File / Print Server (planned) | `192.168.50.20` |
+| Server 1 | `SERV-DC-01` | Domain Controller / DNS (planned) | `192.168.50.10` |
+| Server 2 | `SERV-FS-01` | File / Print Server (planned) | `192.168.50.20` |
 | Client | `Client01` | Windows 11 domain client (planned) | `192.168.50.30` |
 
 ### Network design
